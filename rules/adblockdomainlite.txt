@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260302163351
-! Last modified: 2026/03/02 16:33:51
-! Blocked domains: 4909
+! Version: 20260303003334
+! Last modified: 2026/03/03 00:33:34
+! Blocked domains: 4900
 !
 kwflvcdn.000dn.com
 img.0279.net
@@ -117,11 +117,7 @@ adverts.1foo.com
 ssp.21ic.com
 tj.21ic.com
 2345.cn
-bd-js1.2345.com
-bd-retrieval1.2345.com
-bdcode.2345.com
-ggcode.2345.com
-jifen.2345.com
+2345.com
 2481e.com
 25662zubo23739.com
 2607.cn
@@ -1477,7 +1473,6 @@ api-event.falconnet.app
 config.ad.falconnet.app
 kdewa111.familydoctor.com.cn
 fancyapi.com
-openadapi.fancydsp.com
 clickm.fang.com
 clickn.fang.com
 countpvn.light.fang.com
@@ -3636,7 +3631,6 @@ ssur.cc
 stargame.com
 staticfile.net
 staticfile.org
-adx-strategy-api-cn.statisticslinks.com
 steam66.cn
 stg8.com
 stgowan.com
@@ -4012,7 +4006,6 @@ v2.uyan.cc
 uyfv.cn
 uyunad.com
 communityen.uyzbss.cn
-uzzf.com
 log.apk.v-mate.mobi
 v-vay.com
 1.v-x.com.cn
@@ -4365,7 +4358,6 @@ abroadad.cache.wpscdn.com
 wpwpquse.cn
 wrating.com
 wsacjdg.cn
-wsdiihk.cn
 wsds.cn
 wstatslive.com
 mlog.wangsu.com.wswebcdn.com
@@ -4463,7 +4455,6 @@ redirect.pandora.xiaomi.com
 register.xmpush.global.xiaomi.com
 resolver.mi.xiaomi.com
 sdkconfig.ad.eu.xiaomi.com
-sdkconfig.ad.rus.xiaomi.com
 stat.pandora.xiaomi.com
 stats.music.xiaomi.com
 storeconfig.mistat.intl.xiaomi.com
