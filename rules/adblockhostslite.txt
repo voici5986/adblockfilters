@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260308001717
-# Last modified: 2026/03/08 00:17:17
-# Blocked domains: 4753
+# Version: 20260308091446
+# Last modified: 2026/03/08 09:14:46
+# Blocked domains: 4749
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -619,7 +619,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	us-behavior.apitd.net
 0.0.0.0	apkevery.com
 0.0.0.0	app-analytics-services.com
-0.0.0.0	app-clash.com.cn
 0.0.0.0	app-measurement.com
 0.0.0.0	mobile.appchina.com
 0.0.0.0	appdriver.cn
@@ -958,7 +957,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adv.ccb.com
 0.0.0.0	ad.ccement.com
 0.0.0.0	cchytech.com
-0.0.0.0	mailserver.ccsnetwork.cn
 0.0.0.0	btrace.ysp.cctv.cn
 0.0.0.0	mtrace.ysp.cctv.cn
 0.0.0.0	ad.cctv.com
@@ -1986,7 +1984,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sensors.ibreader.com
 0.0.0.0	busuanzi.ibruce.info
 0.0.0.0	moon.ibytecdn.cn
-0.0.0.0	www.icbc-ltd.com
 0.0.0.0	static.ichehome.com
 0.0.0.0	f1.ichong123.com
 0.0.0.0	goto.www.iciba.com
@@ -4244,7 +4241,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wyvw.cn
 0.0.0.0	a.wzu.com
 0.0.0.0	x-steam.com
-0.0.0.0	download.x64-google.cn
 0.0.0.0	xazbts.com
 0.0.0.0	enappstat.xbext.com
 0.0.0.0	enstat.xbext.com
@@ -4262,6 +4258,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	monott.ad.xelements.cn
 0.0.0.0	v.ad.xelements.cn
 0.0.0.0	xerhibx.cn
+0.0.0.0	bbb.xfrwu.cn
 0.0.0.0	xftsjv.top
 0.0.0.0	dt.xfyun.cn
 0.0.0.0	pics.xgo-img.com.cn
@@ -4584,7 +4581,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	123.ywxww.net
 0.0.0.0	ftp.ywxww.net
 0.0.0.0	adsclick.yx.js.cn
-0.0.0.0	qiniuyunxz.yxflzs.com
 0.0.0.0	yxgfcj.com
 0.0.0.0	ad.a.yximgs.com
 0.0.0.0	ali-ad.a.yximgs.com
