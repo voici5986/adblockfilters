@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260524174828
-! Last modified: 2026/05/24 17:48:28
-! Blocked domains: 5754
+! Version: 20260525005242
+! Last modified: 2026/05/25 00:52:42
+! Blocked domains: 5725
 ! unBlocked domains: 15
 !
 ||0001zhekoushouyoupingtai.org.cn^
@@ -139,7 +139,6 @@
 ||ad.life.360.cn^
 ||c.sayhi.360.cn^
 ||care.help.360.cn^
-||dd.browser.360.cn^
 ||f.360.cn^
 ||hao.360.cn^
 ||lianmeng.360.cn^
@@ -504,7 +503,6 @@
 ||aiwanma99.com^
 ||aiwei365.net^
 ||aiyouxiheadline.com.cn^
-||aiyouxiline.com.cn^
 ||dmm.aizhan.com^
 ||aizipai.cn^
 ||aj1688.cn^
@@ -587,7 +585,6 @@
 ||aixuntupian.oss-cn-hongkong.aliyuncs.com^
 ||alime-pic.oss-cn-hangzhou.aliyuncs.com^
 ||appgiftwall.oss-us-west-1.aliyuncs.com^
-||axyleu11gz-default-cn.rum.aliyuncs.com^
 ||beacon-api.aliyuncs.com^
 ||c3gdk-default-cn.rum.aliyuncs.com^
 ||cdn-ads.oss-cn-shanghai.aliyuncs.com^
@@ -678,7 +675,6 @@
 ||srtj.antutu.net^
 ||yanjiapi.antutu.net^
 ||anysdk.com^
-||aokeonline.com.cn^
 ||aoqinglv.cn^
 ||wxhawk.aoscdn.com^
 ||log-pub-hk.aoshitang.com^
@@ -1092,7 +1088,6 @@
 ||ccbqianbaoappxiazaianzhuanggw.com.cn^
 ||ad.ccement.com^
 ||cchytech.com^
-||btrace.ysp.cctv.cn^
 ||ad.cctv.com^
 ||httpdns.cctv.com^
 ||p.data.cctv.com^
@@ -1824,7 +1819,6 @@
 ||getui.net^
 ||biz.gexing.com^
 ||gf-qishuiapp.com.cn^
-||gf-todesk.com.cn^
 ||gg-shadowsocketa.hl.cn^
 ||gg-shadowsockete.hl.cn^
 ||gg-shadowsocketi.hl.cn^
@@ -2413,7 +2407,6 @@
 ||ads-gdl.imovideo.ru^
 ||pyk.in-neo.cn^
 ||inad.com^
-||inc-todesk.com.cn^
 ||index-match-wending-pg.com.cn^
 ||index-sports-wending-pg.com.cn^
 ||analytics.infility.cn^
@@ -2559,7 +2552,6 @@
 ||target.ads.jihuoniao.com^
 ||jikewan.com^
 ||jikklfexh.com^
-||jingcaionline.com.cn^
 ||wuliao.jingyanben.com^
 ||adx-api.jinmo.tech^
 ||jinshanduba.org.cn^
@@ -2691,7 +2683,6 @@
 ||ic.ksosoft.com^
 ||api.kingdata.ksyun.com^
 ||hdns.ksyun.com^
-||ku-shadowrocket.hl.cn^
 ||kuaichuan112-119buhangzhe.com.cn^
 ||kuaichuanjnrizhibobisaie.com.cn^
 ||kuaichuanshju40j16jbaihuren.com.cn^
@@ -2771,7 +2762,6 @@
 ||wa.kuwo.cn^
 ||kuxkddg.cn^
 ||kuyun.com^
-||kv-shadowrocket.hl.cn^
 ||kvxc7buwv3.com^
 ||api.kwaizt.com^
 ||open.kwaizt.com^
@@ -2866,7 +2856,6 @@
 ||susapi.lenovomm.com^
 ||uss-pid.lenovomm.com^
 ||lenzmx.com^
-||leqiuonline.com.cn^
 ||web.leropaxi-whatsapp.com.cn^
 ||leshu.com^
 ||api.hdtv.letv.com^
@@ -3315,7 +3304,6 @@
 ||synad2.nuffnang.com.cn^
 ||c.nuhcpf.com^
 ||log.nuomi.com^
-||metric.nuonuo.com^
 ||promotionad.nvcam.net^
 ||ad.nvdvr.cn^
 ||anews7.nvwu.com^
@@ -3389,7 +3377,6 @@
 ||ooniu.com^
 ||analytics.ooofoo.com^
 ||oozushirp.com^
-||open-wendingyule.com.cn^
 ||openai.wf^
 ||openinstall.io^
 ||adsfs.oppomobile.com^
@@ -3498,7 +3485,6 @@
 ||asimgs.pplive.cn^
 ||ads.data.pplive.com^
 ||api.afdback.ppsimg.com^
-||pptiyuonline.com.cn^
 ||ads.aplus.pptv.com^
 ||as.aplus.pptv.com^
 ||de.as.pptv.com^
@@ -3814,7 +3800,6 @@
 ||qujishu.com^
 ||qukuailiandizhichaxun7.org.cn^
 ||qukuailianliulanqi7.org.cn^
-||sbbd1.qulishi.com^
 ||bc.qunar.com^
 ||log.flight.qunar.com^
 ||qreport.qunar.com^
@@ -4028,7 +4013,6 @@
 ||js.shunqi.com^
 ||shuzilm.cn^
 ||ads-monitoring.shziyi.com^
-||si-sogou.com.cn^
 ||sigmob.com^
 ||smetrics.marketing.signify.com.cn^
 ||silasbuchanan.shop^
@@ -4451,7 +4435,6 @@
 ||tatrack.thinkyeah.com^
 ||trail.thomsonreuters.cn^
 ||static-img.threatbook.cn^
-||ad.thsi.cn^
 ||tracking.ti.com.cn^
 ||tracking.mail.ti.com.cn^
 ||tiandi.com^
@@ -4556,7 +4539,6 @@
 ||tt-youdaoc.com.cn^
 ||tt-youdaod.com.cn^
 ||settings.ttwebview.com^
-||ttyingqiuonline.com.cn^
 ||www.ttyyuuoo.com^
 ||ad.api.3g.tudou.com^
 ||go.tuev.cn^
@@ -4583,7 +4565,6 @@
 ||u.txuesoft.cn^
 ||ty.cn^
 ||tydouke.com^
-||tzuqiuonline.com.cn^
 ||u7u9.com^
 ||u7x.cn^
 ||images.service.ubmsinoexpo.com^
@@ -5122,7 +5103,6 @@
 ||mlog.wangsu.com.wswebcdn.com^
 ||cdn-ad.wtzw.com^
 ||cdn-new-ad.wtzw.com^
-||wu-sogou.com.cn^
 ||wukongtongji.com^
 ||wumii.cn^
 ||wva-telegram.com.cn^
@@ -5138,7 +5118,6 @@
 ||www-schedule-wending-pg.com.cn^
 ||www-stream-wending-pg.com.cn^
 ||wxz-wps.com.cn^
-||wy-sportsonline.com.cn^
 ||wy213.com^
 ||a.wzu.com^
 ||x-safew.com.cn^
@@ -5390,7 +5369,6 @@
 ||yhcu.cn^
 ||data.yhydl.com^
 ||yhz18.com^
-||yi-sogou.com.cn^
 ||analytics.yicai.com^
 ||applog.yiche.com^
 ||log.ycapp.yiche.com^
@@ -5591,7 +5569,6 @@
 ||api-analytics-de.zepp.com^
 ||api-analytics-us.zepp.com^
 ||api-analytics-us3.zepp.com^
-||app-analytics.zepp.com^
 ||app-analytics-de.zepp.com^
 ||zeszo.cn^
 ||ssp.zf313.com^
@@ -5605,8 +5582,6 @@
 ||zh-hk-whatapp.hl.cn^
 ||zh-todesk-cn.hl.cn^
 ||zh-wding.com.cn^
-||zh-wendinggame.com.cn^
-||zh-wendinggames.com.cn^
 ||push.zhangyue.com^
 ||sys.zhangyue.com^
 ||saad.ms.zhangyue.net^
@@ -5619,8 +5594,6 @@
 ||zhcn-googele.hl.cn^
 ||zhcn-lineo.com.cn^
 ||zhcn-wding.com.cn^
-||zhcn-wendinggame.com.cn^
-||zhcn-wendinggames.com.cn^
 ||zhekoushouyoupingtainagehao.org.cn^
 ||cdnlog.zhenai.com^
 ||1.zhev.com.cn^
@@ -5741,7 +5714,6 @@
 ||steam.zssjsq.com^
 ||ztqdkzn.cn^
 ||ztshg.cn^
-||zucaionline.com.cn^
 ||ad.zui.com^
 ||ad.zuimeitianqi.com^
 ||log2.zuimeitianqi.com^
@@ -5749,7 +5721,6 @@
 ||zukddms.cn^
 ||1.zuowenjun.com^
 ||zuqiujisuanqishengpingfu7.org.cn^
-||zw-line.com.cn^
 ||ndrenefs.zwanyu.cn^
 ||zwlpdo.cn^
 ||5mm.zxfw5.cn^
