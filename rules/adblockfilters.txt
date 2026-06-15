@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260615010902
-! Last modified: 2026/06/15 01:09:02
-! Blocked Filters: 102786
+! Version: 20260615104545
+! Last modified: 2026/06/15 10:45:45
+! Blocked Filters: 102787
 !
 ###AC_ad
 ###AD_160
@@ -22717,6 +22717,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 141jj.com##.moboad + .webad
 141jj.com#?#li:-abp-contains(/贊助|推廣/)
 141jj.com#?#li:contains(/贊助|推廣/)
+141jj.com,jumi.su,preface.ai##a[href*="bit.ly"]
 141jj.com,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
 148apps.com##.advnote
 149.56.24.226###overlay
@@ -24571,6 +24572,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 ://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
+://www.*.js|$script,third-party,domain=159i.com|thisav.com
 ://www.*.xyz/script/$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|gamewith.jp|motor-talk.de|worldhistory.org|kr-weathernews.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org|cpu-monkey.com
 ://www.*.xyz/script/*.de.js|$script,third-party
 ://www.*.xyz/script/*.jp.js|$script,third-party
@@ -67057,6 +67059,7 @@ panarmenian.net##.panner_2
 panarmenian.net##.side_panner
 panarmenian.net#@#.ad_body
 panda985.com,qqdsw8.cn,knews.com.tw,shiyrj.top,yalishi.com,guozaoke.com,100ec.cn,159i.com,1905.com,22vd.com,2345.cn,234fang.com,3gsc.com.cn,52youpiao.com,72g.com,8se.me,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,dngz.net,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,ltn.com.tw,luo8.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,toolfk.com,tv.sohu.com,u-car.com.tw,weather.com.cn,xianbao.fun,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxxs.com,zhihu.com,ziyuanyo.com##.ad
+panda985.com,qqdsw8.cn,knews.com.tw,shiyrj.top,yalishi.com,guozaoke.com,100ec.cn,159i.com,1905.com,22vd.com,2345.cn,234fang.com,3gsc.com.cn,52youpiao.com,72g.com,8se.me,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,dngz.net,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,ltn.com.tw,luo8.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,sogou.com,sozi.cn,toolfk.com,tv.sohu.com,u-car.com.tw,weather.com.cn,xianbao.fun,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxxs.com,zhihu.com,ziyuanyo.com##.ad
 pandadevelopment.net,forplayx.ink,karanpc.com,iconmonstr.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 pandamovies.org##a[href^="https://freepopnews.skin/"]
 pandamovies.pw##.mingplus
@@ -89791,6 +89794,7 @@ zzzyk.com###Tinfo
 ||data.gblcdn.com/data/*gblcdn*.js
 ||data.idnes.cz/nocache/DPP/dacan/
 ||data.indianexpress.com/iframes/cfo-awards/cfoawards.html
+||data.u.software^$third-party
 ||data.wiris.cloud/telemetry/
 ||datacaciques.com^$third-party
 ||datacheap.io/vue.min.js
@@ -90629,7 +90633,6 @@ zzzyk.com###Tinfo
 ||eol.cn/images/ed/gaokao/*-85.jpg
 ||eol.cn/js/eol/
 ||eol.cn/js/global/jQuery_ads.js
-||eolcdn.com^$third-party
 ||eonsmedia.com^$popup
 ||eontappetito.com^$popup
 ||eontent.streamplay.to/apv.hh?$important
@@ -94462,6 +94465,7 @@ zzzyk.com###Tinfo
 ||linkneverdie.net/jquery$replace=/if \(!currentUrl\.includes\("huong-dan"\)\)/if \(!currentUrl\)/
 ||linkrex.net/links/popad$popup
 ||links.cn/mmshow
+||links.strava.com^$image
 ||linksconsole.com/ad-system/
 ||linksfree.site/pop.php
 ||linkshare.pro/img/btc.gif
@@ -97607,6 +97611,7 @@ zzzyk.com###Tinfo
 ||r18.com/track/
 ||r3sub.com/images/aaa^
 ||r3sub.com/images/ccc/
+||r3sub.com/nb/
 ||r3sub.com/posters/0069810.jpg
 ||r3sub.com/posters/00698128.jpg
 ||r3sub.com^*0.gif
@@ -100844,7 +100849,6 @@ zzzyk.com###Tinfo
 ||unblocked.*/zpp/
 ||unblockedapi.com^$popup
 ||unblog.fr/cu.js
-||uncernedasesiumw.org^$popup
 ||under-click.
 ||underclick.
 ||underwriting.allclassical.org/player-banners/
@@ -100885,7 +100889,6 @@ zzzyk.com###Tinfo
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
 ||upcomics.org/k4.gif
 ||updatecompletelyfreetheproduct.vip^$popup
-||updateenow.com^$popup
 ||updateland.com/wp-content/uploads/*/Amazon-Prime-Video
 ||upfastfile.com/upload/natogame_
 ||upgiveunsteps.shop^$popup
@@ -101023,7 +101026,6 @@ zzzyk.com###Tinfo
 ||va.tawk.to/log
 ||vadaszapro.net/banners/
 ||vagrantup.com/api/auth/_log
-||vaitotoo.net^$popup
 ||valoplant.gg/other/bet_gg_ad.html
 ||vanityfair.com/user-context?referrer
 ||vanpeople.com/gg/
@@ -101322,7 +101324,6 @@ zzzyk.com###Tinfo
 ||vps234.com/resources/images/hosting-promotion/
 ||vpsbenchmarks.com/plausible.vpsb.js
 ||vpshostplans.com/wp-content/plugins/ultimate-anti-adblock/
-||vq4b0q.fun^$popup
 ||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
 ||vroom.be^*/stats.js?
