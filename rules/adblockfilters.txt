@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260623185501
-! Last modified: 2026/06/23 18:55:01
-! Blocked Filters: 101759
+! Version: 20260624014514
+! Last modified: 2026/06/24 01:45:14
+! Blocked Filters: 101776
 !
 ###AC_ad
 ###AD_160
@@ -887,7 +887,6 @@
 ###ad_bnr_btf_08
 ###ad_body
 ###ad_bottom
-###ad_box
 ###ad_box1
 ###ad_box2
 ###ad_box_top
@@ -6084,7 +6083,6 @@
 ##.ad-tall
 ##.ad-tech-widget
 ##.ad-temp
-##.ad-text
 ##.ad-text-centered
 ##.ad-text-label
 ##.ad-text-link
@@ -25888,6 +25886,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||aircanada.com^$stealth
 @@||airchina.com.cn/dynamicAd/
 @@||airevue.net$generichide
+@@||airfind.com^$image,domain=headlinelogic.com
 @@||airplaydirect.com/openx/www/images/$image
 @@||airportinfo.live/images/ads.gif
 @@||aisandbox-pa.googleapis.com/v1:checkAppAvailability$stealth=referrer
@@ -27443,6 +27442,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
 @@||cibntv.net/youku/*.mp4?$domain=v.youku.com
 @@||cimanow.cc/wp-content/themes/*/openads.js$script,~third-party
+@@||cinehd.app^$generichide
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||cinemaxxl.de^$stealth=donottrack
 @@||cinemaz.club/video/$stealth=referrer
@@ -29021,6 +29021,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||google-analytics.com/analytics.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|freewebcart.com|javnow.net|freebulksmsonline.com|victor-mochere.com
 @@||google-analytics.com/analytics.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
 @@||google-analytics.com/analytics.js$domain=burgerking.hu
+@@||google-analytics.com/analytics.js$domain=cinehd.app
 @@||google-analytics.com/analytics.js$domain=citroen-club.cz
 @@||google-analytics.com/analytics.js$domain=citytalk.tw|ebb.io|komica.org|lenovo.com.cn|linetv.tw|maminews.com.tw|support.amd.com
 @@||google-analytics.com/analytics.js$domain=club-opel.com
@@ -29099,6 +29100,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||googleads.g.doubleclick.net/ads/controlcookies/getcookies$domain=adssettings.google.com
 @@||googleads.g.doubleclick.net/ads/preferences/$domain=googleads.g.doubleclick.net
 @@||googleads.g.doubleclick.net/favicon.ico,domain=music.wandhi.com
+@@||googleads.g.doubleclick.net/pagead/ads$domain=cinehd.app
 @@||googleads.g.doubleclick.net/pagead/ads$domain=forum.release-apk.com
 @@||googleads.g.doubleclick.net/pagead/ads$domain=next-episode.net
 @@||googleads.g.doubleclick.net/pagead/ads$subdocument,domain=rjno1.com
@@ -31880,6 +31882,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chromeactions.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cimanow.*|cnvids.com|freex2line.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cimaramadan.site|yokugames.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinehd.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=classicalradio.com|di.fm|jazzradio.com|radiotunes.com|rockradio.com|zenradio.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cle0desktop.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cloudfam.io
@@ -34159,6 +34162,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||static.*.com/content/js/pubfig.*.js$domain=lightnovelpub.com|webnovelpub.com|lightnovelspot.com|lightnovelpub.vip
 @@||static.adman.gr/adman.js$domain=gazzetta.gr
 @@||static.adman.gr^$domain=naftemporiki.gr
+@@||static.ads-twitter.com/ads.js$domain=cinehd.app
 @@||static.ads-twitter.com/oct.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
 @@||static.ads-twitter.com/oct.js$domain=itemmania.in.th
 @@||static.ads-twitter.com/uwt.js$domain=cms.nova.cz
@@ -35197,6 +35201,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||vidload.site^$stealth=referrer
 @@||vidnest-*.workers.dev/mp4-proxy$stealth=referrer
 @@||vidsrc.*/embed/$stealth=referrer
+@@||vnjpclub.com^$generichide
 @@||vod*.myqcloud.com^$stealth=referrer,domain=cloud.tencent.com
 @@||volces.com/*^upload$stealth=3p-auth
 @@||volces.com/*^upload$stealth=3p-cache
@@ -36795,7 +36800,6 @@ allevents.in##.wdiv:has(> div.advt-text)
 allhiphop.com##blockquote.caffeine-embed
 alliancex.org#%#//scriptlet('prevent-setTimeout', 'offsetHeight===0')
 alliancex.org#@#.ad-spot
-alliedwindow.com,isewanferry.co.jp,jreu-h.jp,junkmail.co.za,nexco-hoken.co.jp,version2.dk#@#.ad-text
 alligator.io##.article-side > .sticky-side > .text-center > a[href="/about-sponsored-or-affiliate/"]
 alligator.io##.article-side > .sticky-side > div > a[href][rel="sponsored"] > img
 allindiabullion.com#%#//scriptlet('remove-node-text', 'script', '/adScripts|bait/')
@@ -37373,6 +37377,7 @@ androidcommunity.com,euro-sd.com,sfbg.com,techworm.net##.td-header-rec-wrap
 androiddevtools.cn###auto-scroll-ad-box
 androidecuatoriano.xyz#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 androidecuatoriano.xyz#%#//scriptlet('set-constant', 'adblockDetector', 'emptyObj')
+androidexperto.com##div[class^="ym-p"][class*="-server-"]
 androidexplained.com##.site-main > article + div[class^="astra-advanced-hook-"]
 androidfilehost.com##.download-file > div.col-md-4[style="max-width: 320px;"]
 androidheadlines.com##.amp-ad-bottom
@@ -38296,6 +38301,7 @@ ascii-code.com##.text-center.mb-3
 ascii-code.com##div[style="min-height: 240px;"]
 ascii.jp#@#.adrect
 asciitohex.com#?#body > .box.zone > .adsbygoogle:upward(1)
+ascopost.com,fermanaghherald.com##.ad-text
 asd.ink,asd.pics,asd.homes##body > center > a[target="_blank"]
 asd.ink,asd.pics,asd.homes##body > div[id][style^="--rdata:"][style*="position: fixed; inset:"][style*="z-index:"]
 asd.ink,asd.pics,asd.homes#$#.main-content-xfs { display: block !important; }
@@ -39788,13 +39794,10 @@ benchmark.pl##.hidden-md-down
 benchmark.pl##.hidden-tb-down
 benchmark.pl##.hidden-tb-up
 benchmark.pl##.market-aside
-benchmark.pl##.wp-billboard
 benchmark.pl##.wp-screening-placeholder-container
 benchmark.pl##body .ad-ph
-benchmark.pl##div[class*=" "]:has(>div[class*=" "]:first-child + script:last-child)
+benchmark.pl##div[class*=" "]:has(> div[class*=" "]:first-child + script:last-child)
 benchmark.pl#?#img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"]:upward(1)
-benchmark.pl,dobreprogramy.pl,so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]):first-child + div[class*=" "] + div[class*=" "] + script:last-child)
-benchmark.pl,dobreprogramy.pl,so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]):first-child + div[class*=" "] + script:last-child)
 benchmark.pl,dobreprogramy.pl,so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,wplatform.media,staszownews.pl,zdrowienews.pl,kurierostrowiecki.pl,ostrowiec24.info,kielce112.pl,lublinnews.pl,lovelifestyle.pl,telefan24.pl,marketing-zone.pl,panoramaplock.pl,ipolska24.pl,dzieckopoznan.pl,sportpoznan.pl,historiapoznania.pl,wirtualnemedia.pl,pcformat.pl,pudelek.pl,abczdrowie.pl,pysznosci.pl,o2.pl,autokult.pl,jastrzabpost.pl,genialne.pl,polygamia.pl,money.pl,wp.pl#%#(()=>{const t={apply:(t,e,o)=>{try{const t=e;t&&"object"==typeof t&&t.context?.bidRequestId&&(e={})}catch(t){}return Reflect.apply(t,e,o)}};window.Object.prototype.hasOwnProperty=new Proxy(window.Object.prototype.hasOwnProperty,t)})();
 benchmark.pl,dobreprogramy.pl,so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,wplatform.media,staszownews.pl,zdrowienews.pl,kurierostrowiecki.pl,ostrowiec24.info,kielce112.pl,lublinnews.pl,lovelifestyle.pl,telefan24.pl,marketing-zone.pl,panoramaplock.pl,ipolska24.pl,dzieckopoznan.pl,sportpoznan.pl,historiapoznania.pl,wirtualnemedia.pl,pcformat.pl,pudelek.pl,abczdrowie.pl,pysznosci.pl,o2.pl,autokult.pl,jastrzabpost.pl,genialne.pl,polygamia.pl,money.pl,wp.pl#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{const t={apply:(t,e,o)=>{try{const t=e;t&&"object"==typeof t&&t.context?.bidRequestId&&(e={})}catch(t){}return Reflect.apply(t,e,o)}};window.Object.prototype.hasOwnProperty=new Proxy(window.Object.prototype.hasOwnProperty,t)})();')
 benchmark.pl,dobreprogramy.pl,so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,wplatform.media,staszownews.pl,zdrowienews.pl,kurierostrowiecki.pl,ostrowiec24.info,kielce112.pl,lublinnews.pl,lovelifestyle.pl,telefan24.pl,marketing-zone.pl,panoramaplock.pl,ipolska24.pl,dzieckopoznan.pl,sportpoznan.pl,historiapoznania.pl,wirtualnemedia.pl,pcformat.pl,pudelek.pl,abczdrowie.pl,pysznosci.pl,o2.pl,autokult.pl,jastrzabpost.pl,genialne.pl,polygamia.pl,money.pl,wp.pl#%#//scriptlet('trusted-prune-inbound-object', 'Object.entries', '*.slots')
@@ -42747,6 +42750,8 @@ cined.com##.affiliates-banner-container-block
 cined.com##.alternative-links
 cined.com##.recommended-course-card
 cined.com#%#//scriptlet("set-constant", "ulp_noadb", "true")
+cinehd.app##section[aria-label^="Sponsored"]
+cinehd.app#%#//scriptlet('prevent-fetch', '/doubleclick|ads-twitter.com|google-analytics.com|adsbygoogle/')
 cinejosh.com##.col-xs-12 > div.panel:has(> div[style] > div > a[href="https://www.youtube.com/watch?v=blTLDzamx2w"])
 cinejosh.com##.googleAdPanel
 cinejosh.com##.googleAdsSponsered
@@ -48879,6 +48884,7 @@ feng.com##.header
 feng.com##div[class^="ad_90"]
 fengniao.com###ad-head
 fengniao.com,zhiding.cn##div[id^="AD"]
+fermanaghherald.com##.ad-spaces
 ferrarichat.com##.funzone
 ferrarichat.com##.node_sponsor
 festyy.com,corneey.com###ctfshb
@@ -49943,6 +49949,7 @@ forum.android.com.pl##.Ad--has-placeholder
 forum.android.com.pl##.Ad-container
 forum.android.com.pl##.Anchor-ad
 forum.benchmark.pl##div[id][style*="min-height:"]:has(> img[src="https://std.wpcdn.pl/images/adv/placeholder_wp.svg"])
+forum.betaprofiles.com##.discourse-adplugin
 forum.cstalking.tv###adblock_msg
 forum.cstalking.tv##.body_wrapper > table.blockhead
 forum.cstalking.tv#%#//scriptlet('prevent-fetch', 'ads.cstalking.tv')
@@ -51067,6 +51074,8 @@ gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="(
 gamepadla.com###sliderBlock:has(> .relative > .sliderBlock > .ads)
 gamepadla.com##.pMain:has(div[class^="asd_"])
 gamepadla.com##.pMain:has(div[title="Partner placement"])
+gamepadla.com#?#.pMain:contains(Partner)
+gamepadla.com#?#.pMain:has-text(Partner)
 gamepadla.com#?#.sliderBlock:contains(ADS)
 gamepadla.com#?#.sliderBlock:has-text(ADS)
 gamepedia.com##body div#content > div#atflb
@@ -56660,6 +56669,10 @@ iplocation.net##.ip-buttons > button[class="btn btn-danger"]
 iplocation.net#?#.col_4_of_12 > .widget:contains(Advertisement)
 iplocation.net#?#section > div.container div.widget:has(> div.widget_title > h3:contains(Advertisement))
 ipolitics.ca,qpbriefing.com##.big-box
+ipolska24.pl,benchmark.pl##.wp-billboard
+ipolska24.pl,benchmark.pl,dobreprogramy.pl,so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]):first-child + div[class*=" "] + div[class*=" "] + script:last-child)
+ipolska24.pl,benchmark.pl,dobreprogramy.pl,so-magazyn.pl,parenting.pl,fotoblogia.pl,kafeteria.pl,pudelek.pl,genialne.pl,money.pl,abczdrowie.pl,autokult.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,o2.pl,wp.pl##div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]):first-child + div[class*=" "] + script:last-child)
+ipolska24.pl,jastrzabpost.pl,money.pl,o2.pl,wp.pl##article aside > .flex-none > div[class*=" "]:has(> div[class*=" "]:first-child + script:last-child)
 ipon.pl#$#.appAdvContainer { height: 1px!important; }
 ipon.pl#$#.app_adv_baner { height: 1px!important; }
 ipon.pl#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c){if(!/checkAds\(\);/.test(a.toString()))return b(a,c)};})();
@@ -57338,7 +57351,6 @@ jastrzabpost.pl###sticky-anchor
 jastrzabpost.pl##.adc
 jastrzabpost.pl##.jastrzabpost-widget
 jastrzabpost.pl##div[id^="jastrzabpost-"]
-jastrzabpost.pl,money.pl,o2.pl,wp.pl##article aside > .flex-none > div[class*=" "]:has(> div[class*=" "]:first-child + script:last-child)
 jastrzebieonline.pl##div[class^="ad_"]
 jauns.lv##.ad
 jauns.lv##.ph-1000x200
@@ -58755,6 +58767,8 @@ kogan.com#?#.rs-infinite-scroll > div:contains(Sponsored)
 kogan.com#?#.rs-infinite-scroll > div:has-text(Sponsored)
 kogan.com#?#.slider-slide:contains(Sponsored)
 kogan.com#?#.slider-slide:has-text(Sponsored)
+koha.net##.reklama_holder
+koha.net##body > div.container:has(> div.d-flex > div.reklame_live)
 kohls.com###PDP_monetization_HL
 kohls.com###PMP_monetization_HL
 kohls.com###kmn-featured-carousel
@@ -67031,7 +67045,6 @@ pcgamebenchmark.com,soccerway.com,streetcheck.co.uk##.placement
 pcgamer.com,itproportal.com,laptopmag.com,windowscentral.com,tomsguide.com,tomshardware.com,digitalcameraworld.com##body > div[style^="position: fixed;"][style*="z-index: 999"][style*="pointer-events:"]:not([class]):not([id])
 pcgamer.com,techcrunch.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
 pcgamer.com,tomshardware.com#@#.sponsored-article
-pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
 pcgamesn.com,pockettactics.com##.inlinerail
 pcgamesn.com,pockettactics.com,wargamer.com##.ad-injector-potential-slot
 pcgamesn.com,pockettactics.com,wargamer.com##.sn-placement
@@ -71125,6 +71138,7 @@ rrys2020.com##.corner > LI > A[href*="yyets."]
 rs-online.com##.sponsored-products
 rsbnetwork.com##div[id^="rsbne-"]
 rscripts.net#%#//scriptlet('prevent-fetch', 'doubleclick')
+rscripts.net,pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
 rshrt.com###headlineatas
 rspro.xyz#@#.body-top-ads
 rspro.xyz#@#.c-ads
@@ -74051,6 +74065,7 @@ speedcheck.org##.isg-container
 speedguide.net##body > div[style="position:relative; margin:auto; padding: 0px; width:728px; height:100px; text-align:center;"]
 speedguide.net##body > div[style="position:relative; margin:auto; padding: 0px; width:728px; height:95px; text-align:center;"]
 speedof.me##.ftl-zone
+speedof.me##.mezgopv-zone
 speedof.me##.test-ad-container
 speedpan.com###float-window
 speedporn.net##.sbox + #uwee
@@ -75936,7 +75951,6 @@ techradar.com##div[class^="slot-single-height-"][style^="position: relative; box
 techradar.com##div[data-image].hawk-nest
 techradar.com#$#div[data-widget-type="ads"] + div[data-widget-type="dynamic"] { margin-top: 0px !important; }
 techradar.com#@#[href^="https://www.hostg.xyz/aff_c"]
-techradar.com,toimitilat.kauppalehti.fi#@#.sponsored-article
 techrankup.com##.adall
 techraptor.net###nn_lb3
 techraptor.net###nn_lb4
@@ -77224,6 +77238,7 @@ thestudentroom.co.uk#$#header.MuiAppBar-positionFixed { position: static !import
 thestudentroom.co.uk#$#img[src*="logo-colour.svg"] { margin-top: 14px !important; }
 thestudentroom.co.uk#@#.fixed_ad
 thesun.co.uk###article-footer div[id*="-ads-"]
+thesun.co.uk##.article-boxout
 thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
 thesun.co.uk##.article__content > .has-text-align-center:has(> strong > a[href])
 thesun.co.uk##.article__footer
@@ -80433,6 +80448,8 @@ vjav.tube,vjav.com##.headline:has(+ .video-videos-slider)
 vk.com,vk.ru###system_msg
 vkcdnservice.appspot.com^$third-party
 vmet.ro,wi-fi.ru###fullscreenBanner
+vnjpclub.com##.vnjp-ad-slot
+vnjpclub.com#%#//scriptlet('prevent-setTimeout', 'detectAdBlock')
 vod.pl,player.pl#$#body .adsbygoogle.adv_container.ads { display: block !important; }
 vod.pl,player.pl#$#body div[class][style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 0px; height: 0px;"] { display: block !important; }
 vod.pl,player.pl#@#.ad
