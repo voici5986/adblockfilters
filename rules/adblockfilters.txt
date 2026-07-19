@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260719004437
-! Last modified: 2026/07/19 00:44:37
-! Blocked Filters: 102902
+! Version: 20260719094533
+! Last modified: 2026/07/19 09:45:33
+! Blocked Filters: 102904
 !
 ###AC_ad
 ###AD_160
@@ -86567,6 +86567,7 @@ zzzyk.com###Tinfo
 ||agbi.com/kqmp6?
 ||agefans.top/js/wap2-jm-ms.js
 ||agilecrm.com^$third-party
+||agilesrv.com^$third-party
 ||agitos.de/content/track?
 ||agoda.net/v2/track
 ||agrointel.ro/ga.js
@@ -96776,6 +96777,7 @@ zzzyk.com###Tinfo
 ||pcmag.com/js/alpine/$domain=speedtest.net
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
+||pcmx.autohome.com.cn/impress?
 ||pconline.com.cn/_hux_/
 ||pconline.com.cn/count.php?
 ||pconline.com.cn/download/*/intf*.js
@@ -98133,6 +98135,7 @@ zzzyk.com###Tinfo
 ||right.com.cn/logo/yyb.png
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||rintor.space/t2632cd43215.js
+||ripples.sh^$third-party
 ||rising.cn/js/haoAdData.js
 ||rising.cn/rxbox/
 ||rising.cn^*/pic-ad/
@@ -102004,7 +102007,6 @@ zzzyk.com###Tinfo
 ||x.com/1.1/graphql/user_flow.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
-||x.com/i/api/1.1/flow/viewer.json
 ||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
