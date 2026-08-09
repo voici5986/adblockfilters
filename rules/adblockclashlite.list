@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260809163103
-# Last modified: 2026/08/09 16:31:03
-# Blocked domains: 5090
+# Version: 20260810002257
+# Last modified: 2026/08/10 00:22:57
+# Blocked domains: 5081
 #
 [Rule]
 DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT-DROP
@@ -306,7 +306,6 @@ DOMAIN-SUFFIX,trail.71baomu.com,REJECT-DROP
 DOMAIN-SUFFIX,bdcdncnc.inter.71edge.com,REJECT-DROP
 DOMAIN-SUFFIX,2026.72.chat,REJECT-DROP
 DOMAIN-SUFFIX,73336zubo25326.com,REJECT-DROP
-DOMAIN-SUFFIX,75ww.com,REJECT-DROP
 DOMAIN-SUFFIX,1.78500.cn,REJECT-DROP
 DOMAIN-SUFFIX,79n4cubmu8.com,REJECT-DROP
 DOMAIN-SUFFIX,7car.com.cn,REJECT-DROP
@@ -318,7 +317,6 @@ DOMAIN-SUFFIX,cdn.7nsc.cn,REJECT-DROP
 DOMAIN-SUFFIX,7s7bvoungt.com,REJECT-DROP
 DOMAIN-SUFFIX,7s8z7w24u.com,REJECT-DROP
 DOMAIN-SUFFIX,cp.7y7.com,REJECT-DROP
-DOMAIN-SUFFIX,80zk.cn,REJECT-DROP
 DOMAIN-SUFFIX,m1.81312.com,REJECT-DROP
 DOMAIN-SUFFIX,8181zx.com,REJECT-DROP
 DOMAIN-SUFFIX,81bkkx81zd.com,REJECT-DROP
@@ -957,7 +955,6 @@ DOMAIN-SUFFIX,p3-ad-sign.byteimg.com,REJECT-DROP
 DOMAIN-SUFFIX,p3-tt.byteimg.com,REJECT-DROP
 DOMAIN-SUFFIX,p6-ad-sign.byteimg.com,REJECT-DROP
 DOMAIN-SUFFIX,p9-ad-sign.byteimg.com,REJECT-DROP
-DOMAIN-SUFFIX,byyz.cn,REJECT-DROP
 DOMAIN-SUFFIX,s.c-ctrip.com,REJECT-DROP
 DOMAIN-SUFFIX,smbpbuovnmctad.c200pk.info,REJECT-DROP
 DOMAIN-SUFFIX,c4d4.cn,REJECT-DROP
@@ -977,7 +974,6 @@ DOMAIN-SUFFIX,canard-gov.com,REJECT-DROP
 DOMAIN-SUFFIX,count.candou.com,REJECT-DROP
 DOMAIN-SUFFIX,canjeahorabac.help,REJECT-DROP
 DOMAIN-SUFFIX,canjeenefectivobac.help,REJECT-DROP
-DOMAIN-SUFFIX,telemetry.canva.cn,REJECT-DROP
 DOMAIN-SUFFIX,caomeixz7.xyz,REJECT-DROP
 DOMAIN-SUFFIX,baidu1.cardbaobao.com,REJECT-DROP
 DOMAIN-SUFFIX,cartx.cloud,REJECT-DROP
@@ -1670,7 +1666,6 @@ DOMAIN-SUFFIX,fiwyjar.cn,REJECT-DROP
 DOMAIN-SUFFIX,fjsytjs.cn,REJECT-DROP
 DOMAIN-SUFFIX,flash.cn,REJECT-DROP
 DOMAIN-SUFFIX,flsfzr.cn,REJECT-DROP
-DOMAIN-SUFFIX,flunion.cn,REJECT-DROP
 DOMAIN-SUFFIX,api-flow.flyme.cn,REJECT-DROP
 DOMAIN-SUFFIX,bro.flyme.cn,REJECT-DROP
 DOMAIN-SUFFIX,t-e.flyme.cn,REJECT-DROP
@@ -1720,7 +1715,6 @@ DOMAIN-SUFFIX,dms.fx678.com,REJECT-DROP
 DOMAIN-SUFFIX,a.fxltsbl.com,REJECT-DROP
 DOMAIN-SUFFIX,fy14.cn,REJECT-DROP
 DOMAIN-SUFFIX,g15wt3ci68.com,REJECT-DROP
-DOMAIN-SUFFIX,g3user.com,REJECT-DROP
 DOMAIN-SUFFIX,g4z8712756.com,REJECT-DROP
 DOMAIN-SUFFIX,g5xu1dslr6.com,REJECT-DROP
 DOMAIN-SUFFIX,gainifyads.com,REJECT-DROP
@@ -3130,7 +3124,6 @@ DOMAIN-SUFFIX,gg86.pinggu.org,REJECT-DROP
 DOMAIN-SUFFIX,img50.pingguolv.com,REJECT-DROP
 DOMAIN-SUFFIX,api.pingstart.com,REJECT-DROP
 DOMAIN-SUFFIX,bd1.pipaw.com,REJECT-DROP
-DOMAIN-SUFFIX,stat2.pixpin.cn,REJECT-DROP
 DOMAIN-SUFFIX,pl-wodranek.com,REJECT-DROP
 DOMAIN-SUFFIX,pl53l7tyw.com,REJECT-DROP
 DOMAIN-SUFFIX,load.tbyvvwvv.plasmatreatment.cn,REJECT-DROP
@@ -3984,7 +3977,6 @@ DOMAIN-SUFFIX,info.thermoscientific.cn,REJECT-DROP
 DOMAIN-SUFFIX,sstats.thermoscientific.cn,REJECT-DROP
 DOMAIN-SUFFIX,thinkingdata.cn,REJECT-DROP
 DOMAIN-SUFFIX,trail.thomsonreuters.cn,REJECT-DROP
-DOMAIN-SUFFIX,ad.thsi.cn,REJECT-DROP
 DOMAIN-SUFFIX,tracking.mail.ti.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,tiandi.com,REJECT-DROP
 DOMAIN-SUFFIX,tianjimedia.com,REJECT-DROP
@@ -4573,7 +4565,6 @@ DOMAIN-SUFFIX,jcmonitor.xcar.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,pv.xcar.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,pvx.xcar.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,zio.xcar.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,analytics.xdiarys.com,REJECT-DROP
 DOMAIN-SUFFIX,xdrig.com,REJECT-DROP
 DOMAIN-SUFFIX,sensors.h5.xed.plus,REJECT-DROP
 DOMAIN-SUFFIX,xegnfwkju.com,REJECT-DROP
