@@ -3,9 +3,9 @@
 # Description: 适用于 MosDNS 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmosdnslite.txt
-# Version: 20261011105356
-# Last modified: 2026/10/11 10:53:56
-# Blocked domains: 8338
+# Version: 20261011222948
+# Last modified: 2026/10/11 22:29:48
+# Blocked domains: 8353
 #
 kwflvcdn.000dn.com
 00k456wyh.com
@@ -67,6 +67,7 @@ o.027eat.com
 0oi1ej7mo.com
 0oo9j37xp.com
 0otmh22aj2.com
+0qry58i9es.com
 0qxfxqif0.com
 0s1wclct6.com
 0s5qb3rfz.com
@@ -109,8 +110,8 @@ bdwmhz.120askimages.com
 ad.12306.cn
 123cha.com
 bdad.123pan.cn
-124to81tc.com
 ent1.12584.cn
+126.cn
 analytics.126.com
 ir.mail.126.com
 ads.music.126.net
@@ -219,6 +220,7 @@ vstlog.17u.cn
 1hotu9uyll.com
 1iw9r46xh5.com
 1j397opcuw.com
+1jlbewhnp5.com
 1jlp1qbgu.com
 1jzocofm4.com
 1k1bd77k9.com
@@ -246,7 +248,6 @@ d1.1ppt.com
 1qocqk1fho.com
 1r0br5zeq.com
 1rljzo9nt.com
-1rtb.cn
 1rtb.com
 1rtb.net
 1rwa5e8a6.com
@@ -408,7 +409,6 @@ m.yule.360.com
 360ads.com
 cps.360buy.com
 img2.360buyimg.com
-360chou.com
 360in.com
 360kuai.com
 360mads.com
@@ -764,6 +764,7 @@ kl.67it.com
 6j7ywcn8sx.com
 6jei0t6xp.com
 6jtqdplfz7.com
+6k1alauto.com
 6k2fehacp.com
 6knlhnjfv.com
 6kpudsordv.com
@@ -1149,6 +1150,7 @@ app.aflink.com
 logservice.agora.io
 logservice-rtm.agora.io
 report-america.agora.io
+report-america2.agora.io
 report-asia.agora.io
 report-edge.agora.io
 report-europe.agora.io
@@ -1163,7 +1165,6 @@ statscollector-1-europe.agora.io
 statscollector-1-north-america.agora.io
 statscollector-1-south-america.agora.io
 webcollector-rtm.agora.io
-rest-argus-ad.agoralab.co
 ahtjhe1bka.com
 ai-kit.cn
 aickw1c4w.com
@@ -1575,7 +1576,6 @@ pups.baidu.com
 push.zhanzhang.baidu.com
 qapm.baidu.com
 qianclick.baidu.com
-r6.mo.baidu.com
 release.baidu.com
 res.mi.baidu.com
 river.zhidao.baidu.com
@@ -1634,6 +1634,7 @@ tuplogpublic.bangcdn.net
 log.banjixiaoguanjia.com
 sentry.banjixiaoguanjia.com
 sentry.bankneo.co.id
+midinfo.baofeng.com
 a.baomihua.com
 djs.baomihua.com
 resource.baomihua.com
@@ -2042,6 +2043,7 @@ bd1.click.com.cn
 clicki.cn
 clo41zgrs.com
 appsentry-eu-ali.closeli.com
+7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 cm30oc1du.com
@@ -2344,6 +2346,7 @@ events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
 grs-dbankcloud-com-dra.appacc.dbankedge.cn
 grs-dbankcloud-com-dra.appacc-region.dbankedge.cn
 grs-dbankcloud-com-drcn.wec.dbankedge.cn
+metrics1-drcn-dt-dbankcloud-cn.gere.dbankedge.cn
 dbzolzzy7s.com
 dc5koxhfh.com
 engine.dcad01.com
@@ -2390,7 +2393,6 @@ dfi09240kq.com
 dfi09241kq.com
 dfi09250kq.com
 dgnqrl.icu
-dgrj.com.cn
 dgrpeldt54.com
 d.dgzj.com
 dh5t3pyb6r.com
@@ -2497,7 +2499,6 @@ dqgrr623c.com
 dr7dsx6u9.com
 drawers06.com
 drdwy.com
-sentry.dreambig.work
 drivethelife.com
 ds8k3y2d5n.com
 dshsnxfcjwdhpe.com
@@ -2897,6 +2898,7 @@ mon11-misc.fqnovel.com
 mon11-misc-lf.fqnovel.com
 mon11-misc-lq.fqnovel.com
 mon3-misc-lf.fqnovel.com
+rtlog3-applog.fqnovel.com
 rtlog3-applog-hl.fqnovel.com
 rtlog3-applog-lf.fqnovel.com
 rtlog3-applog-lq.fqnovel.com
@@ -3076,12 +3078,12 @@ auth.api.gitv.tv
 doh.ptqy.gitv.tv
 liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
+ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
 puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 static.ptqy.gitv.tv
-t7z.cupid.ptqy.gitv.tv
 time.video.ptqy.gitv.tv
 giwl0p3gx7.com
 gj8ph3gw8z.com
@@ -3481,6 +3483,7 @@ api-4know-em.hismarttv.com
 api-gps.hismarttv.com
 api-gps-em.hismarttv.com
 api-gps-eu.hismarttv.com
+api-gps-na.hismarttv.com
 api-launcher-eu.hismarttv.com
 api-launcher-na.hismarttv.com
 api.eu.hismarttv.com
@@ -3541,6 +3544,7 @@ hnol.net
 hoamt60fa.com
 metrics.hollisterco.cn
 smetrics.hollisterco.cn
+homeflashsale-eu.shop
 homespl.shop
 log.homestyler.com
 homeyoupl.shop
@@ -3619,6 +3623,7 @@ ads.huawei.com
 eu-1.nebula-collector.huawei.com
 hwa.his.huawei.com
 httpdns.huaweicloud.com
+uba.huaweicloud.com
 inner-hw.huazirc.com
 hubcloud.com.cn
 huishenghuiying.com.cn
@@ -3763,6 +3768,8 @@ ihago.net
 ihbkqdj55.com
 ihclam.cn
 ihhuyvugv.com
+appadapi.ihuman.com
+umami.ihuyi.com
 iimedia.cn
 ijinshan.com
 daima.ijq.tv
@@ -4476,6 +4483,7 @@ lhippac.cn
 lht8yhbbl.com
 ad.data.lianjia.com
 dig.lianjia.com
+ll-sentry.lianlianpay.com
 adimg.liba.com
 libaishuo.com
 track.libii.cn
@@ -4483,6 +4491,7 @@ lichunxiao.cn
 liebaovip.com
 likeshop.top
 lindabella.shop
+lingd.cn
 ads.linkedin.cn
 linkhaitao.com
 listlessly1.top
@@ -4654,6 +4663,7 @@ sentry.meitu-int.com
 corp.meitu.com
 gg.meitu.com
 message.meitu.com
+sentry-26.meitu.com
 tuiguang.meitu.com
 xiuxiu.android.dl.meitu.com
 adgame.waimai.meituan.com
@@ -4730,6 +4740,7 @@ pandora.mi.com
 sentry.d.mi.com
 stat.youpin.mi.com
 tk.d.mi.com
+video.kts.g.mi.com
 mi1804pen.com
 mi1pbnrk8d.com
 miam4.cn
@@ -4876,7 +4887,6 @@ moodoo.com.cn
 m.moomoo.com
 mitsukiai-sentry.moondroplab.tech
 moongor.com
-ad.moonton.cn
 moquanad.com
 ads.morefreegame.com
 motsjnv.cn
@@ -5188,7 +5198,6 @@ crash-reporting.olaparty.com
 oldulgk.cn
 ollsok.icu
 om1aq1t27.com
-statistics.one-all.cn
 oneapm.com
 onelnk.com
 apicosdk.onemt.co
@@ -5377,7 +5386,6 @@ prod-uk-online-sentry.popmart.com
 poqwua.cn
 fp-it-acc.portal101.cn
 webtrack.pospal.cn
-postut.cn
 pow46ru6c.com
 log.cs.pp.cn
 patriot.cs.pp.cn
@@ -5459,6 +5467,7 @@ q6iw41lkk.com
 q6zikgclq9.com
 q7vnwa1ma7.com
 q8pmxabng9.com
+q9cu7eok92.com
 q9ss0yqwa.com
 qa2bdtwm7h.com
 qab0m5irus.com
@@ -5466,6 +5475,7 @@ qawxpzm.cn
 qayjvrxso.com
 cp.qbaobei.com
 apilog.qbb6.com
+dn-growing.qbox.me
 uplog.qbox.me
 qbxxi23a2.com
 qbyngdjq8g.com
@@ -5833,7 +5843,6 @@ v5-se-sjy-daily-reading-ad.qznovelvod.com
 v6-daily-reading-ad.qznovelvod.com
 v6-reading-ad.qznovelvod.com
 v9-reading-ad.qznovelvod.com
-v95-aw-reading-ad.qznovelvod.com
 v95-se-zjwztc-reading-ad.qznovelvod.com
 v95-ynkmtc-reading-ad.qznovelvod.com
 v95-zjjx2tc-reading-ad.qznovelvod.com
@@ -5910,6 +5919,7 @@ rib0nsgx6.com
 richh.cn
 ad.richmob.cn
 rio9s1zdpd.com
+ritualsbodys.shop
 ritualspl.shop
 bi-tracker-global.rivergame.net
 rk2kpo4ef.com
@@ -6040,6 +6050,7 @@ scb4tpwq40.com
 smetrics.schindler.cn
 scjpqut.cn
 sckexing.cn
+scrimshaw-quillon.shop
 scruffy.top
 statscollector.sd-rtn.com
 sd0ycgs3n0.com
@@ -6080,6 +6091,7 @@ httpdns.n.shifen.com
 jpaasne.e.shifen.com
 statichf.shihuocdn.cn
 shilian168.cn
+analysis.shixunsuda.com
 1.shopit.cn
 sentry.shoplazza.com
 shopxenial.shop
@@ -6280,6 +6292,7 @@ yule.sohu.com
 smetrics.solidigmtech.com.cn
 smetrics.solidigmtechnology.cn
 rtb-uswest-ak.solomath.com
+songlaoban.cn
 gg.sonhoo.com
 sc.sonystyle.com.cn
 soob00avn4.com
@@ -6294,6 +6307,7 @@ tj.sosomp.com
 click1n.soufun.com
 countubn.light.soufun.com
 tongji.home.soufun.com
+ad-r.soulapp.cn
 data-collector.soulapp.cn
 roi.soulapp.cn
 ad.southcn.com
@@ -6382,7 +6396,6 @@ am.szhome.com
 szjbo9a13.com
 collector.szlcsc.com
 szqwzosxn3.com
-www.szrongt.com
 sztd75fntp.com
 t101.cn
 t19olm6fd.com
@@ -6397,6 +6410,7 @@ t6ec3seyq.com
 t7fv5mjt8i.com
 t7h2otlhd.com
 t7ywa5ai3.com
+t8yctltd8s.com
 t9x2gu6it3.com
 ta7088hrd.com
 ta7tfk0o2h.com
@@ -6453,6 +6467,7 @@ adashx4sg.ut.taobao.com
 adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
 ae-alimelog.taobao.com
+agoodm.m.taobao.com
 ai.taobao.com
 ai.m.taobao.com
 alimelog.taobao.com
@@ -6597,7 +6612,6 @@ thinkingdata.cn
 thj36m3dm.com
 trk.thomas-pump.cn
 trail.thomsonreuters.cn
-ad.thsi.cn
 thuk8hg48.com
 tracking.mail.ti.com.cn
 ti1nmd09a.com
@@ -6877,6 +6891,7 @@ cdp.cloud.unity.cn
 metrics2.unity.cn
 ads.unitychina.cn
 cdn.iads.unitychina.cn
+splash-ads.unitychina.cn
 unityads.unitychina.cn
 universe7.top
 unjrkrxme.com
@@ -6959,7 +6974,6 @@ v85ps46o4.com
 v8fjvv9o3.com
 v8j1rkai1.com
 va3yq7si6w.com
-vaeth.cn
 vamaker.com
 collect.vans.com.cn
 sea-log-rcv.vansound.com
@@ -7282,6 +7296,7 @@ vz95953ow5.com
 vzayis1qa.com
 vzrhwmsj.icu
 w0zk4pw7an.com
+w19lu17a2.com
 w1irjtvdt4.com
 w2j4kdjma.com
 w2q5p09n8.com
